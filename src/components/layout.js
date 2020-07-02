@@ -12,6 +12,23 @@ const ListLink = props => {
   )
 }
 
+// image links to Gatsby and React websites, built as separate components to keep the footer JSX more readable
+const GatsbyLink = () => {
+  return (
+    <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">
+      <img src={GatsbyLogo} alt="Gatsby Logo" style={{ width: 70, marginBottom: -3 }} />
+    </a>
+  )
+}
+const ReactLink = () => {
+  return (
+    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+      <img src={ReactLogo} alt="React Logo" style={{ width: 70, marginBottom: -14 }} />
+    </a>
+  )
+}
+
+
 export default function Layout({ children }) {
   return (
     <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
@@ -34,17 +51,22 @@ export default function Layout({ children }) {
 
       </header>
 
+
       {children}
+
 
       <footer style={{ 
               position: `fixed`,
               left: 0,
               bottom: 0,
               width: `100%`,
-              textAlign: `center` }}>
+              textAlign: `center` 
+      }}>
+
         <h6>
-          Website created by Sean Welsh Brown, with <a href="https://www.gatsbyjs.org/" target="_blank"><img src={GatsbyLogo} alt="Gatsby Logo" style={{ width: 70, marginBottom: -3 }} /></a> and<a href="https://reactjs.org/" target="_blank"><img src={ReactLogo} alt="React Logo" style={{ width: 70, marginBottom: -14 }} /></a>
+          Website created with <span role="img" aria-label="Heart Emoji">❤️</span> using {GatsbyLink()} and {ReactLink()}
         </h6>
+        
       </footer>
       
     </div>
