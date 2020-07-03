@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+// images
 import GatsbyLogo from '../images/gatsby-logo.svg'
 import ReactLogo from '../images/react-logo.png'
 
+
+// Gatsby Link component turned into styled <li> element
 const ListLink = props => {
   return (
     <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -13,7 +16,7 @@ const ListLink = props => {
 }
 
 
-// image links to Gatsby and React websites, built as separate components to keep the footer JSX more readable
+// image links to Gatsby and React websites, abstracted as separate components to keep the footer JSX more readable
 const GatsbyLink = () => {
   return (
     <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">
@@ -61,12 +64,16 @@ export default function Layout({ children }) {
               left: 0,
               bottom: 0,
               width: `100%`,
-              textAlign: `center` 
+              textAlign: `center`,
+              backgroundColor: `white`,
       }}>
+
+        <div style={{ width: `30%`, margin: `auto`, borderTop: `1px solid #e3c7c3` }}></div>
 
         <h6>
           Website created with <span role="img" aria-label="Heart Emoji">❤️</span> using {GatsbyLink()} and {ReactLink()}
         </h6>
+
         
       </footer>
       
