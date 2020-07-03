@@ -12,6 +12,7 @@ const ListLink = props => {
   )
 }
 
+
 // image links to Gatsby and React websites, built as separate components to keep the footer JSX more readable
 const GatsbyLink = () => {
   return (
