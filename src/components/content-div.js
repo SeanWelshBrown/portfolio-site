@@ -5,7 +5,7 @@ export default function Content({ children }) {
     <div style={{ 
         textAlign: `center`, 
         margin: `auto`,
-        marginTop: 30 }}
+        marginTop: `30px` }}
     >
       {children}
     </div>

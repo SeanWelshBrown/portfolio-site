@@ -35,7 +35,7 @@ const ReactLink = () => {
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 780, padding: `0 1rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 750, padding: `0 1rem` }}>
 
       <header style={{ marginBottom: `1.5rem` }}>
 
@@ -69,7 +69,7 @@ export default function Layout({ children }) {
       }}>
 
         <div style={{ 
-              maxWidth: 650, 
+              maxWidth: 750, 
               margin: `auto`, 
               borderTop: `1px solid #e3c7c3`, 
               boxShadow: `0px -1px 5px #9c9c9c` }}>

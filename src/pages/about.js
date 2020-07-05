@@ -6,16 +6,16 @@ import Content from "../components/content-div"
 
 // images
 import SeanThailand from "../images/sean/sean-thailand.jpg"
-import SeanVO from "../images/sean/sean-vo.jpeg"
-import SeanVR from "../images/sean/sean-vr.jpg"
-import SeanRiley from "../images/sean/sean-riley.jpg"
-import SeanElephant from "../images/sean/sean-elephant.jpg"
+// import SeanVO from "../images/sean/sean-vo.jpeg"
+// import SeanVR from "../images/sean/sean-vr.jpg"
+// import SeanRiley from "../images/sean/sean-riley.jpg"
+// import SeanElephant from "../images/sean/sean-elephant.jpg"
 
 // styles
-import styles from "./about.module.css"
+// import styles from "./about.module.css"
 
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
       

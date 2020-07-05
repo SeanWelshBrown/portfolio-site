@@ -4,8 +4,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Content from "../components/content-div"
 
-import ImageGallery from 'react-image-gallery';
-import "react-image-gallery/styles/css/image-gallery.css";
+// import ImageGallery from 'react-image-gallery';
+// import "react-image-gallery/styles/css/image-gallery.css";
 
 // images
 import Focus1 from "../images/projects/focus/focus-1.png"
@@ -17,7 +17,6 @@ import Focus1 from "../images/projects/focus/focus-1.png"
 import Fractal1 from "../images/projects/fractal/fractal-1.png"
 import Portfolio1 from "../images/projects/portfolio/portfolio-1.png"
 import Today1 from "../images/projects/today/today-1.png"
-import Today2 from "../images/projects/today/today-2.png"
 
 // styles
 import styles from "./projects.module.css"
@@ -45,7 +44,7 @@ import styles from "./projects.module.css"
 // ]
 
 
-export default function Home() {
+export default function Projects() {
   return (
     <Layout>
 
@@ -59,7 +58,7 @@ export default function Home() {
         /> */}
 
         {/* PROJECT 1 */}
-        <img src={Focus1} className={styles.projectImg} />
+        <img src={Focus1} className={styles.projectImg} alt="Screenshot of Focus app" />
 
         <h2><u>Focus</u></h2>
 
@@ -96,7 +95,7 @@ export default function Home() {
 
 
         {/* PROJECT 2 */}
-        <img src={Fractal1} className={styles.projectImg} />
+        <img src={Fractal1} className={styles.projectImg} alt="Screenshot of Fractal Zone app" />
 
         <h2><u>The Fractal Zone</u></h2>
 
@@ -127,11 +126,11 @@ export default function Home() {
 
 
         {/* PROJECT 3 */}
-        <img src={Portfolio1} className={styles.projectImg} />
+        <img src={Portfolio1} className={styles.projectImg} alt="Screenshot of Portfolio site" />
 
         <h2><u>Portfolio Site</u></h2>
 
-        <p className={styles.projectLink}><strong>Hosted:</strong> <a href="" target="_blank" rel="noreferrer">seanwelshbrown.codes</a></p>
+        <p className={styles.projectLink}><strong>Hosted:</strong> <a href="seanwelshbrown.codes" target="_blank" rel="noreferrer">seanwelshbrown.codes</a></p>
 
         <p><strong>GitHub:</strong> <a href="https://github.com/SeanWelshBrown/portfolio-site" target="_blank" rel="noreferrer">https://github.com/SeanWelshBrown/portfolio-site</a></p>
 
@@ -156,7 +155,7 @@ export default function Home() {
 
 
         {/* PROJECT 4 */}
-        <img src={Today1} className={styles.projectImg} />
+        <img src={Today1} className={styles.projectImg} alt="Screenshot of Today app" />
 
         <h2><u>Today</u></h2>
 

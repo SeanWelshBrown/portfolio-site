@@ -4,14 +4,17 @@ import React from "react"
 import Layout from "../components/layout"
 import Content from "../components/content-div"
 
+// images
+import ResumePDF from "../images/seanwelshbrown-resume.pdf"
 
-export default function Home() {
+
+export default function Resume() {
   return (
     <Layout>
 
       <Content>
 
-        <h2>Resume</h2>
+        <object data={ResumePDF} type="application/pdf" style={{ height: `75vh`, width: `100%` }}></object>
         
       </Content>
 

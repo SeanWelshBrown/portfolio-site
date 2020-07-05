@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Content from "../components/content-div"
 
 
-export default function Home() {
+export default function Blogs() {
   return (
     <Layout>
       
