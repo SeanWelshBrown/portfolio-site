@@ -12,7 +12,7 @@ import SeanRiley from "../images/sean/sean-riley.jpg"
 import SeanElephant from "../images/sean/sean-elephant.jpg"
 
 // styles
-import styles from "../pages/about.module.css"
+import styles from "./about.module.css"
 
 
 export default function Home() {

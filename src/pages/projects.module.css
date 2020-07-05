@@ -1,0 +1,28 @@
+.projectImg {
+  margin: 0 auto;
+}
+
+.projectLink {
+  margin: 3px auto;
+}
+
+.projectDescription p {
+  text-align: left;
+  margin: 12px auto;
+}
+
+.projectBuiltWith p {
+  text-align: left;
+  margin-top: 14px;
+  margin-bottom: 3px;
+  margin-left: 20px;
+}
+
+.projectBuiltWith ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+.projectBuiltWith ul li {
+  margin: 2px auto;
+}
