@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 import Content from "../components/content-div"
 
 // images
-import SeanPic1 from "../images/sean-pic-1.jpg"
-import LinkedInMark from "../images/linkedin-mark.png"
-import GitHubMark from "../images/github-mark.png"
-import MediumMark from "../images/medium-mark.png"
-import DevToMark from "../images/devto-mark.svg"
+import SeanHeadshot from "../images/sean/sean-headshot.jpg"
+import LinkedInMark from "../images/logos/linkedin-mark.png"
+import GitHubMark from "../images/logos/github-mark.png"
+import MediumMark from "../images/logos/medium-mark.png"
+import DevToMark from "../images/logos/devto-mark.svg"
 
 
 // image links to social media, abstracted as separate components to keep the body JSX more readable
@@ -50,14 +50,15 @@ export default function Home() {
       <Content>
 
         <img 
-          src={SeanPic1} alt="professional headshot" 
+          src={SeanHeadshot} alt="professional headshot" 
           style={{ 
             borderRadius: `50%`, 
-            width: 320,
+            width: `300px`,
+            // border: `3px solid black`,
             boxShadow: `0 0 8px 2px` }}
         />
 
-        <h2>Hi there! 👋</h2>
+        <h2>Hi there, <span role="img" aria-label="Hand Waving Emoji">👋</span></h2>
 
         <p>I'm Sean, a full-stack web developer based in Brooklyn, NY.</p>
 
@@ -65,7 +66,7 @@ export default function Home() {
 
         <p>With a background in the performing arts, I'm driven by a lifelong passion to combine technology, software, humanity and art to create clean code and improve the lives of others.</p>
 
-        <p>Click the links at the top of the page to learn more about me, to see my projects, resume and blog posts, or to get in contact with me directly!</p>
+        <p>Click the links at the top of the page to learn more about me, to see my projects, resume and blog posts, or to contact me directly!</p>
 
         <ul>
           {LinkedInLink()}

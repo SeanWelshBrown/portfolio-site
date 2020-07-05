@@ -1,10 +1,19 @@
 import React from "react"
+
+// components
 import Layout from "../components/layout"
+import Content from "../components/content-div"
 
 export default function Home() {
   return (
     <Layout>
-      <div>Hello world!</div>
+      
+      <Content>
+
+        <h2>Contact me</h2>
+
+      </Content>
+
     </Layout>
   )
 }

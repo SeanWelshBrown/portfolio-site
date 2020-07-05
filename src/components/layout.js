@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 // images
-import GatsbyLogo from '../images/gatsby-logo.svg'
-import ReactLogo from '../images/react-logo.png'
+import GatsbyLogo from '../images/logos/gatsby-logo.svg'
+import ReactLogo from '../images/logos/react-logo.png'
 
 
 // Gatsby Link component turned into styled <li> element
@@ -68,7 +68,12 @@ export default function Layout({ children }) {
               backgroundColor: `white`,
       }}>
 
-        <div style={{ width: `30%`, margin: `auto`, borderTop: `1px solid #e3c7c3` }}></div>
+        <div style={{ 
+              maxWidth: 650, 
+              margin: `auto`, 
+              borderTop: `1px solid #e3c7c3`, 
+              boxShadow: `0px -1px 5px #9c9c9c` }}>
+        </div>
 
         <h6>
           Website created with <span role="img" aria-label="Heart Emoji">❤️</span> using {GatsbyLink()} and {ReactLink()}
