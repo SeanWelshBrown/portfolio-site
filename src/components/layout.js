@@ -35,12 +35,12 @@ const ReactLink = () => {
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 780, padding: `0 1rem` }}>
 
       <header style={{ marginBottom: `1.5rem` }}>
 
         <Link to={"/"} style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h3 style={{ display: `inline` }}>
+          <h3 style={{ display: `inline`, fontSize: `30px` }}>
             Sean Welsh Brown
           </h3>
         </Link>
