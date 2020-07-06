@@ -107,7 +107,9 @@ export default function Projects() {
 
           <p><strong>The Fractal Zone</strong> is a pair project I developed with <a href="https://github.com/Rizz0S" target="_blank" rel="noreferrer">Summer Rizzo</a> that houses a "Fractal Machine" which draws fractal trees to a canvas based on user parameters. Fractal design patterns can then be persisted to the gallery along with their parameters and a downloadable image.</p>
 
-          <p>My primary role in the project was to set up the <strong>PostgreSQL database</strong> and <strong>Ruby on Rails back-end</strong> for persisting user authentication and saved fractal designs. I also built out the initial skeleton and routing of the React front-end and initial CSS styling, then continued to refine and collaborate on both with my partner.</p>
+          <p>My primary role in the project was to set up the <strong>PostgreSQL database</strong> and <strong>Ruby on Rails back-end</strong> for persisting user authentication and saved fractal designs. I also worked with my partner to build out the initial skeleton of the React front-end and initial CSS styling, then continued to refine, grow, and collaborate on both together.</p>
+
+          <p>I also worked on figuring out how to use web APIs to export an HTML5 canvas as an image, as well as persist it to our database as a dataURl for our gallery feature.</p>
 
         </div>
 
