@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Content from "../components/content-div"
 
 // images
-import ResumePDF from "../images/seanwelshbrown-resume.pdf"
+import ResumePDF from "../images/sean-welsh-brown-software-engineer-resume.pdf"
 
 
 export default function Resume() {

@@ -1,0 +1,27 @@
+.contactForm {
+
+}
+
+.contactForm label {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.contactInput {
+  margin: 4px;
+  width: 220px;
+}
+
+.contactField {
+  width: 350px;
+  height: 200px;
+}
+
+.contactForm button {
+  margin: 5px;
+  width: 100px;
+}
+
+.contactClear {
+  width: 100px
+}

@@ -5,6 +5,11 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Sean Welsh Brown`,
+    description: `Portfolio website for software engineer and web developer Sean Welsh Brown`,
+    author: `Sean Welsh Brown`
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
