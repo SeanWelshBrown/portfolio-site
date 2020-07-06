@@ -10,7 +10,7 @@ module.exports = {
     titleTemplate: "%s · Software Engineer",
     description: `Full-Stack Web Developer and Software Engineer with a background in the performing arts, hoping to make a positive impact on the world.`,
     url: `https://www.seanwelshbrown.com`,
-    image: `/static/sean-headshot.jpg`,
+    image: `/static/sean-welsh-brown-logo.png`,
     author: `Sean Welsh Brown`
   },
   plugins: [
