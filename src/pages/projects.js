@@ -132,7 +132,7 @@ export default function Projects() {
 
         <h2><u>Portfolio Site</u></h2>
 
-        <p className={styles.projectLink}><strong>Hosted:</strong> <a href="seanwelshbrown.codes" target="_blank" rel="noreferrer">seanwelshbrown.codes</a></p>
+        <p className={styles.projectLink}><strong>Hosted:</strong> <a href="https://www.seanwelshbrown.com/" target="_blank" rel="noreferrer">https://www.seanwelshbrown.com/</a></p>
 
         <p><strong>GitHub:</strong> <a href="https://github.com/SeanWelshBrown/portfolio-site" target="_blank" rel="noreferrer">https://github.com/SeanWelshBrown/portfolio-site</a></p>
 
