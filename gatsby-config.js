@@ -7,7 +7,10 @@
 module.exports = {
   siteMetadata: {
     title: `Sean Welsh Brown`,
-    description: `Portfolio website for software engineer and web developer Sean Welsh Brown`,
+    titleTemplate: "%s · Software Engineer",
+    description: `Full-Stack Web Developer and Software Engineer with a background in the performing arts, hoping to make a positive impact on the world.`,
+    url: `https://www.seanwelshbrown.com`,
+    image: `/static/sean-headshot.jpg`,
     author: `Sean Welsh Brown`
   },
   plugins: [
@@ -17,5 +20,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-react-helmet`
   ],
 }

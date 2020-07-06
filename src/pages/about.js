@@ -6,13 +6,6 @@ import Content from "../components/content-div"
 
 // images
 import SeanThailand from "../images/sean/sean-thailand.jpg"
-// import SeanVO from "../images/sean/sean-vo.jpeg"
-// import SeanVR from "../images/sean/sean-vr.jpg"
-// import SeanRiley from "../images/sean/sean-riley.jpg"
-// import SeanElephant from "../images/sean/sean-elephant.jpg"
-
-// styles
-// import styles from "./about.module.css"
 
 
 export default function About() {
@@ -21,20 +14,11 @@ export default function About() {
       
       <Content>
 
-        {/* <div className={styles.imgCarousel}>
-          <img src={SeanThailand} /> 
-          <img src={SeanVO} /> 
-          <img src={SeanVR} /> 
-          <img src={SeanRiley} /> 
-          <img src={SeanElephant} /> 
-        </div> */}
-
         <img
           src={SeanThailand} alt="Me at an art museum in Thailand"
           style={{ 
             borderRadius: `50%`, 
             width: `300px`,
-            // border: `3px solid black` ,
             boxShadow: `0 0 8px 2px` }}/> 
 
         <h2>About me <span role="img" aria-label="Lightbulb Emoji">💡</span></h2>
@@ -46,8 +30,6 @@ export default function About() {
         <p>I've also maintained a love for the arts and humanities thanks to wonderful parents who took me to museums, plays, and everything in-between while growing up. I loved it so much that I acquired a <strong>BFA from NYU</strong> (with a <strong>Minor in Web Design and Applications</strong>), and have spent the past 10 years pursuing acting and voice-over professionally in NYC.</p>
 
         <p>As an actor and narrator I've worked with some amazing clients, such as <strong>Audible</strong>, <strong>Scholastic</strong>, <strong>Microsoft</strong>, <strong>HarperCollins</strong>, <strong>Avis</strong>, <strong>Nickelodeon</strong>, and many more.</p>
-
-        {/* <p>My experiences in the performing arts have helped shape me in more ways than I could count, and have made <em>empathy</em>, <em>collaboration</em>, <em>compassion</em> and <em>diversity</em> into core apects of how I approach the world.</p> */}
 
         <p>Once I knew I was ready for a change, I decided that it was time to pursue my other lifelong love of technology and software. I attended <strong>Flatiron School</strong> for their <strong>Software Engineering</strong> program, spending an incredible 15 weeks learning everything I could about modern web design and development.</p>
 

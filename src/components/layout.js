@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+// components
+import SEO from "./seo"
+
 // images
 import GatsbyLogo from '../images/logos/gatsby-logo.svg'
 import ReactLogo from '../images/logos/react-logo.png'
@@ -36,6 +39,8 @@ const ReactLink = () => {
 export default function Layout({ children }) {
   return (
     <div style={{ margin: `3rem auto`, maxWidth: 750, padding: `0 1rem` }}>
+
+      <SEO />
 
       <header style={{ marginBottom: `1.5rem` }}>
 

@@ -14,7 +14,7 @@ export default function Resume() {
 
       <Content>
 
-        <object data={ResumePDF} type="application/pdf" style={{ height: `75vh`, width: `100%` }}></object>
+        <object data={ResumePDF} type="application/pdf" aria-label="Sean Welsh Brown Software Engineering Resume" style={{ height: `75vh`, width: `100%` }}></object>
         
       </Content>
 

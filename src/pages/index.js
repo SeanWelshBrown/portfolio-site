@@ -21,13 +21,12 @@ export default function Home() {
           style={{ 
             borderRadius: `50%`, 
             width: `300px`,
-            // border: `3px solid black`,
             boxShadow: `0 0 8px 2px` }}
         />
 
         <h2>Hi there, <span role="img" aria-label="Hand Waving Emoji">👋</span></h2>
 
-        <p>I'm Sean, a full-stack web developer based in Brooklyn, NY.</p>
+        <p>I'm Sean, a full-stack web developer and software engineer based in Brooklyn, NY.</p>
 
         <p>I'm experienced in: <strong>JavaScript, React, Ruby, Rails, HTML and CSS</strong>, with an understanding of <strong>SQL, PostgreSQL, and RESTful</strong> database and API structures.</p>
 

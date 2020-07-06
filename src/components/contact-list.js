@@ -1,7 +1,6 @@
 import React from 'react';
 
 // images
-import SeanHeadshot from "../images/sean/sean-headshot.jpg"
 import LinkedInMark from "../images/logos/linkedin-mark.png"
 import GitHubMark from "../images/logos/github-mark.png"
 import MediumMark from "../images/logos/medium-mark.png"
