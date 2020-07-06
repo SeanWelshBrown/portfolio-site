@@ -4,7 +4,6 @@ import React from "react"
 import Layout from "../components/layout"
 import Content from "../components/content-div"
 import ContactList from "../components/contact-list"
-import ContactForm from "../components/contact-form"
 
 
 export default function Contact() {
@@ -17,9 +16,11 @@ export default function Contact() {
 
         <ContactList />
 
-        <h5>Or contact me directly using the form below!</h5>
+        <h5>Or contact me by email:</h5>
 
-        <ContactForm />
+        <p><strong>seanwelshbrown@gmail.com</strong></p>
+
+        <a href="mailto:seanwelshbrown@gmail.com">(Click to open email app directly)</a>
 
       </Content>
 
