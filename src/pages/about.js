@@ -23,9 +23,9 @@ export default function About() {
 
         <h2>About me <span role="img" aria-label="Lightbulb Emoji">💡</span></h2>
 
-        <p>A native born New Yorker by way of Manhattan, once New Jerseyan, now Brooklynite. You could say I like the pizza here enough to stick around.</p>
+        <p>A native born New Yorker by way of Manhattan, once New Jerseyan, now Brooklynite. You could say I like the pizza and bagels here enough to stick around.</p>
 
-        <p>I've had a passion for technology and all things nerdy since I was first old enough to hold a Game Boy and tinker with my father's MS-DOS work laptop, and that love of software and circuits has been the core of my identity ever since.</p>
+        <p>I've had a passion for technology and all things nerdy since I was first old enough to hold a Game Boy and tinker with my dad's MS-DOS work laptop, and that love of software and gadgets has been the core of my identity ever since.</p>
 
         <p>I've also maintained a love for the arts and humanities thanks to wonderful parents who took me to museums, plays, and everything in-between while growing up. I loved it so much that I acquired a <strong>BFA from NYU</strong> (with a <strong>Minor in Web Design and Applications</strong>), and have spent the past 10 years pursuing acting and voice-over professionally in NYC.</p>
 
