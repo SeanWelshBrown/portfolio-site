@@ -18,8 +18,6 @@ My goals for the project were:
 
 * **Sean Welsh Brown** - [GitHub](https://github.com/SeanWelshBrown) / [LinkedIn](https://www.linkedin.com/in/seanwelshbrown/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
