@@ -4,9 +4,9 @@ This is the repository for my person portfolio site as a developer and engineer.
 
 My goals for the project were:
 1. To further establish a personal brand and presence online as a developer
-2. To create a clean, readable and inviting UX on desktop or mobile
-3. To learn and practice with GatsbyJS
-4. To deepend my knowledge and understanding of static sites, SEO and metadata as a whole
+2. To learn and practice with GatsbyJS
+3. To create a clean, readable and inviting UX on desktop or mobile
+4. To grow my knowledge and understanding of static sites, SEO and metadata
 
 ## Built With
 
