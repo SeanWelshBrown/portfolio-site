@@ -1,6 +1,6 @@
 # Web Development / Software Engineering Portfolio 👨🏻‍💻
 
-This is the repository for my person portfolio site as a developer and engineer.
+This is the repository for my personal portfolio site.
 
 My goals for the project were:
 1. To further establish a personal brand and presence online as a developer
