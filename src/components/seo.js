@@ -48,7 +48,7 @@ const SEO = ({ title, description, image, article }) => {
 
       <meta property="og:type" content="website" />
 
-      <meta name="twitter:card" content={seo.image}></meta>
+      <meta name="twitter:card" content="summary_large_image" />
 
     </Helmet>
   )
