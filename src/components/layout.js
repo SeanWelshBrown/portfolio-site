@@ -81,7 +81,7 @@ export default function Layout({ children }) {
         </div>
 
         <h6 style={{ margin: `0px auto`, marginBottom: `11px` }}>
-          Website created with <span role="img" aria-label="Heart Emoji">❤️</span> using {GatsbyLink()} and {ReactLink()}
+          Website built with <span role="img" aria-label="Heart Emoji">❤️</span> using {GatsbyLink()} and {ReactLink()}
         </h6>
 
         

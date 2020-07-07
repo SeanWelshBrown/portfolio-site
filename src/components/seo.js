@@ -14,6 +14,7 @@ const SEO = ({ title, description, image, article }) => {
     defaultDescription,
     siteUrl,
     defaultImage,
+    author
   } = site.siteMetadata
 
   const seo = {
@@ -21,12 +22,17 @@ const SEO = ({ title, description, image, article }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
+    author: author
   }
 
   return (
+    
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <meta name="author" content={seo.author} />
+      <meta name="keywords" content="JavaScript, React, Gatsby, HTML, CSS, Ruby, Rails, SQL, Sean, Welsh, Brown, Full, Stack, Web, Developer, Software, Engineer" />
+
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
@@ -39,6 +45,11 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta property="og:image" content={seo.image} />}
+
+      <meta property="og:type" content="website" />
+
+      <meta name="twitter:card" content={seo.image}></meta>
+
     </Helmet>
   )
 }
