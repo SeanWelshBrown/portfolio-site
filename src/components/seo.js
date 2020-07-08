@@ -30,7 +30,7 @@ const SEO = ({ title, description, image, article }) => {
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <meta name="author" content={seo.author} />
+      <meta name="author" content="Sean Welsh Brown" />
       <meta name="keywords" content="JavaScript, React, Gatsby, HTML, CSS, Ruby, Rails, SQL, Sean, Welsh, Brown, Full, Stack, Web, Developer, Software, Engineer" />
 
 

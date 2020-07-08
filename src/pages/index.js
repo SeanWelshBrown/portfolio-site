@@ -28,7 +28,7 @@ export default function Home() {
 
         <p>I'm Sean, a full-stack web developer and software engineer based in Brooklyn, NY.</p>
 
-        <p>I'm experienced in: <strong>JavaScript, React, Ruby, Rails, HTML and CSS</strong>, with an understanding of <strong>SQL, PostgreSQL, and RESTful</strong> database and API structures.</p>
+        <p>I'm experienced in: <strong>JavaScript, React, Redux, Gatsby, Ruby, Rails, HTML and CSS</strong>, with an understanding of <strong>SQL, PostgreSQL, and RESTful</strong> database and API structures.</p>
 
         <p>With a background in the performing arts, I'm driven by a lifelong passion to combine technology, software, humanity and art to create clean code and improve the lives of others.</p>
 
