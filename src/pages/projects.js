@@ -4,16 +4,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Content from "../components/content-div"
 
-// import ImageGallery from 'react-image-gallery';
-// import "react-image-gallery/styles/css/image-gallery.css";
-
 // images
 import Focus1 from "../images/projects/focus/focus-1.png"
-// import Focus2 from "../images/projects/focus/focus-2.png"
-// import Focus3 from "../images/projects/focus/focus-3.png"
-// import Focus4 from "../images/projects/focus/focus-4.png"
-// import Focus5 from "../images/projects/focus/focus-5.png"
-// import Focus6 from "../images/projects/focus/focus-6.png"
 import Fractal1 from "../images/projects/fractal/fractal-1.png"
 import Portfolio1 from "../images/projects/portfolio/portfolio-1.png"
 import Today1 from "../images/projects/today/today-1.png"
@@ -22,40 +14,11 @@ import Today1 from "../images/projects/today/today-1.png"
 import styles from "./projects.module.css"
 
 
-// const focusImages = [
-//   {
-//     original: `${Focus1}`
-//   },
-//   {
-//     original: `${Focus2}`
-//   },
-//   {
-//     original: `${Focus3}`
-//   },
-//   {
-//     original: `${Focus4}`
-//   },
-//   {
-//     original: `${Focus5}`
-//   },
-//   {
-//     original: `${Focus6}`
-//   },
-// ]
-
-
 export default function Projects() {
   return (
     <Layout>
 
       <Content>
-
-        {/* <ImageGallery 
-          items={focusImages} 
-          showPlayButton={false}
-          showBullets={true}
-          showThumbnails={false}
-        /> */}
 
         {/* PROJECT 1 */}
         <img src={Focus1} className={styles.projectImg} alt="Screenshot of Focus app" />
