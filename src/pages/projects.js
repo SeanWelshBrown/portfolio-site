@@ -101,7 +101,7 @@ export default function Projects() {
 
         <div className={styles.projectDescription}>
 
-          <p>This <strong>Portfolio Site</strong> itself is a personal project as well! I used developing it as an opportunity to learn and practice with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">Gatsby</a>, a front-end framework that priotizies performative and search engine optimized static websites.</p>
+          <p>This <strong>Portfolio Site</strong> itself is a personal project as well! I used developing it as an opportunity to learn and practice with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">Gatsby</a>, a front-end framework that prioritizies performative and search engine optimized static websites.</p>
 
           <p>I also used it as an opportunity to practice with different styling techniques and design ideas to create a simple, inviting and informative UX.</p>
 
