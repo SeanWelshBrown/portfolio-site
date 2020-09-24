@@ -25,17 +25,17 @@ const GitHubLink = () => {
     </a>
   )
 }
-const MediumLink = () => {
-  return (
-    <a href="https://medium.com/@seanwelshbrown" target="_blank" rel="noreferrer">
-      <img src={MediumMark} alt="Medium Logo" className={styles.brandImg} />
-    </a>
-  )
-}
 const DevToLink = () => {
   return (
     <a href="https://dev.to/seanwelshbrown" target="_blank" rel="noreferrer">
       <img src={DevToMark} alt="Dev.to Logo" className={styles.brandImg} />
+    </a>
+  )
+}
+const MediumLink = () => {
+  return (
+    <a href="https://medium.com/@seanwelshbrown" target="_blank" rel="noreferrer">
+      <img src={MediumMark} alt="Medium Logo" className={styles.brandImg} />
     </a>
   )
 }
@@ -48,8 +48,8 @@ export default function ContactList() {
 
       <li>{LinkedInLink()}</li>
       <li>{GitHubLink()}</li>
-      <li>{MediumLink()}</li>
       <li>{DevToLink()}</li>
+      <li>{MediumLink()}</li>
 
     </ul>
 
