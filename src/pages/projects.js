@@ -26,8 +26,8 @@ export default function Projects() {
 
         <p className={styles.projectLink}>
           <b>Hosted:</b>{" "}
-          <a href="https://focus-timer.app/" target="_blank" rel="noreferrer">
-            https://focus-timer.app/
+          <a href="https://focus-app-frontend.netlify.app/" target="_blank" rel="noreferrer">
+            https://focus-app-frontend.netlify.app/
           </a>
         </p>
 

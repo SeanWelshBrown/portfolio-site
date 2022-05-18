@@ -30,29 +30,23 @@ export default function Home() {
         </h2>
 
         <p>
-          I'm Sean, a full-stack Web Developer and Software Engineer based in New Jersey and New
+          I'm Sean, a full-stack Software Developer based in New Jersey and New
           York City.
         </p>
 
         <p>
-          I'm experienced in: <b>JavaScript, React, Redux, Gatsby, Ruby on Rails, HTML and CSS</b>,
-          with an understanding of <b>SQL, PostgreSQL, and RESTful database and API structures.</b>
+          I currently work on the dev team at <em>Genesis Research</em>, a real world evidence and health economics and outcomes research company in Hoboken, NJ.
         </p>
 
         <p>
-          I'm currently working to add <b>Node.JS, Express, MongoDB</b> and other new technologies
-          to my skills.
+          I'm heavily experienced in the front end world of: <b>JavaScript, React, and HTML/CSS</b>,
+          with a growing proficiency in <b>Python, Django, SQL,</b> and DevOps technologies like <b>Docker and AWS.</b>
         </p>
 
         <p>
           With a background in the performing arts, I'm driven by a lifelong passion to combine
           technology, software, humanity and art to create clean code and improve the lives of
           others.
-        </p>
-
-        <p>
-          Click the links at the top of the page to learn more about me, to see my projects and
-          resume, or to contact me directly!
         </p>
 
         <ContactList />

@@ -29,8 +29,7 @@ export default function About() {
         </h2>
 
         <p>
-          A native New Yorker by way of Manhattan, current New Jerseyan. I've spent half of my life
-          moving back and forth between the two, so you could say I like the pizza and bagels here
+          A native born New Yorker by way of Manhattan and current New Jerseyan. You could say I like the pizza and bagels around here
           enough to stick around.{" "}
           <span role="img" aria-label="Pizza Emoji">
             🍕
@@ -42,15 +41,13 @@ export default function About() {
 
         <p>
           I've had a passion for technology and all things nerdy since I was first old enough to
-          hold a Game Boy and tinker with my dad's MS-DOS work laptop, and that love of software and
+          hold a Game Boy and tinker with MS-DOS on my dad's work laptop, and that love of software and
           gadgets has been the core of my identity ever since.
         </p>
 
         <p>
-          I've also maintained a love of the arts and humanities thanks to wonderful parents who
-          took me to museums, plays, and everything in-between while growing up. I loved it so much
-          that I pursued a <b>BFA from NYU</b> (with a <b>Minor in Web Design and Applications</b>
-          ), and have spent the past 10 years pursuing acting and voice-over professionally in NYC.
+          I've also maintained a love of the arts and humanities thanks to museum trips, musicals,
+          and everything in-between while growing up. That love grew into pursuing a <b>BFA from NYU</b> (with a <b>Minor in Web Design and Applications</b>, and a 12 year acting and voice-over career in NYC.
         </p>
 
         <p>
