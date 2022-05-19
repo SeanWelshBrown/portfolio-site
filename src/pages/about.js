@@ -47,7 +47,7 @@ export default function About() {
 
         <p>
           I've also maintained a love of the arts and humanities thanks to museum trips, musicals,
-          and everything in-between while growing up. That love grew into pursuing a <b>BFA from NYU</b> (with a <b>Minor in Web Design and Applications</b>, and a 12 year acting and voice-over career in NYC.
+          and everything in-between while growing up. That love grew into pursuing a <b>BFA from NYU</b> (with a <b>Minor in Web Programming and Applications</b>, and a 12 year acting and voice-over career in NYC.
         </p>
 
         <p>
